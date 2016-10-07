@@ -13,7 +13,28 @@ This acts as a polyfill for those helpers
 
 ## Usage
 
-TBD
+In your code
+
+```
+var hb = require('handlebars');
+var mandrill-helpers = require('mandrill-template-helpers');
+
+hb.registerHelper(mandrill-helpers);
+
+...
+
+var template = hb.compile('./template.html');
+
+```
+
+in your `./template.html` do
+
+```
+    {{#if shout_out}}
+        {{upper shout_out}}!
+    {{/if}}
+
+```
 
 ### Inline Helpers Available in Mandrill
 

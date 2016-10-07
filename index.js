@@ -1,8 +1,6 @@
 'use strict';
 
-var handlebars = require('handlebars');
-
-handlebars.registerHelper({
+var helpers = {
     upper: function (value) {
         return value.toUpperCase();
     },
@@ -25,3 +23,5 @@ handlebars.registerHelper({
         return value;
     }
 });
+
+module.exports = helpers;

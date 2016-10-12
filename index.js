@@ -19,9 +19,9 @@ var helpers = {
     striptags: function (value) {
         return value;
     },
-    unsub: function(value) {
+    unsub: function (value) {
         return value;
     }
-});
+};
 
 module.exports = helpers;

@@ -4,7 +4,7 @@
   "description": "mandrill handlebar helper polyfill",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape test/**/*.test.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
     "url": "https://github.com/n2geoff/mandrill-template-helpers/issues"
   },
   "homepage": "https://github.com/n2geoff/mandrill-template-helpers#readme",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^4.6.2"
+  }
 }

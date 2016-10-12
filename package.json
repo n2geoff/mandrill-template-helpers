@@ -1,6 +1,6 @@
 {
   "name": "mandrill-template-helpers",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "mandrill handlebar helper polyfill",
   "main": "index.js",
   "scripts": {
